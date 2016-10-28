@@ -10,6 +10,19 @@ Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
 
 ## Setup
 
+### From this Repo
+
+Clone this repo and then run:
+```shell
+mix deps.get
+mix ecto.setup
+```
+
+Now you should be able to run `mix phoenix.server` and have the working setup.
+
+
+### From scratch
+
 Create the sample app:
 
 ```shell
